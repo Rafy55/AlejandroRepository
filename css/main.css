@@ -1,9 +1,45 @@
 body {
   background-color: black;
   text-align: center;
+  font-family: Arial;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 48px;
+
 }
 
 img {
-  max-width: 100;
+  max-width: 100%;
 
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  border-bottom: 10xp dotted blue
+  transition: color 1s ease darkblue;
+
+
+}
+
+}
+/* Visited links */
+a:visited {
+  color: gray;
+}
+
+a:hover {
+  color: darkgray;
+  cursor: crosshair;
+}
+
+/* Focused state */
+a:focus {
+  color: white;
+}
+
+/* Activated state */
+a:active {
+  color: black;
 }
