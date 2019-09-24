@@ -1,40 +1,171 @@
-body{
-    margin:0;
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background-color: green;
+  width: 120%;
+  margin-left: -10%;
+  margin-top: -50px;
+}
+
+ .two{
+   margin: 0;
+   overflow-x: hidden;
+   background-color: black;
+    }
+  .three{
+    margin: 0;
     overflow-x: hidden;
+  background-color: green;
+}
+.four{
+  margin: 0;
+  overflow-x: hidden;
+  background-color: orange;
+}
+.five{
+  margin: 0;
+  overflow-x: hidden;
+  background-color: yellow;
 }
 
-#container {
-  width:120%;
-  margin-left:-10%;
-  margin-right:-50%;
+ #container {
+   width: 120%;
+   margin-left: -10%;
+   margin-top: -50px;
 }
 
-.tile1, .tile2, .tile3
-{
-
-
-  float: right;
+}
+.tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8,
+.tile9, .tile10, .tile11, .tile12, .tile13, .tile14, .tile15 {
+  float: left;
   opacity: .8;
 }
-  .tile1 {
+.tile1 {
+  width: 300px;
+  height: 500px;
+  border-radius: 50%;
+  background-color: purple;
+}
+.tile2 {
+  width: 1000px;
+  height: 10px;
+  margin: -50px;
+  transform: rotate(100deg);
+  background-color: blue;
+}
+.tile3 {
+  width: 809px;
+  height: 50px;
+  margin: 100px 0 0 100px;
+  transform: rotate(45deg);
+  background-color:black;
+}
+.tile4{
+  width: 500px;
+  height: 50px;
+  margin 10px;
+  transform: rotate(80deg);
+    background-color: blue;
+}
 
-    width: 100px;
-    height: 50px;
+.tile5{
+  width: 150px;
+  height: 30px;
+  margin 15px;
+  transform: rotate(0deg);
+    background-color: red;
+  border-top: 25px solid black;
+	border-left: 50px solid black;
+	border-bottom: 25px solid transparent;
+}
+
+.tile6 {
+  width: 50px;
+  height: 50px;
+  margin 30px;
+    border-radius: 200%;
+  transform: rotate(50deg);
+    background-color: white;
+}
+
+.tile7{
+  width: 600px;
+  height: 50px;
+  margin 10px;
+  transform: rotate(145deg);
+    background-color: yellow;
+}
+.tile8{
+  width: 7px;
+  height: 300px;
+  margin 25px;
+  border-radius: 100%;
+  transform: rotate(45deg);
+    background-color: orange;
+}
+.tile9{
+  width: 500px;
+  height: 50px;
+  margin 10px;
+  border-top: 25px solid white;
+  border-left: 50px solid green;
+  border-bottom: 25px solid transparent;
+  transform: rotate(80deg);
+    background-color: white;
+}
+.tile10{
+  width: 250px;
+  height: 50px;
+  margin 12px;
+  border-radius: 200%;
+  transform: rotate(200deg);
+    background-color: white;
+}
+.tile11{
+  width: 300px;
+  height: 50px;
+  margin 10px;
+  	border-left: 50px solid green;
+  transform: rotate(100deg);
     background-color: black;
-    margin: -10%;
+}
+.tile12{
+  width: 300px;
+  height: 800px;
+  margin 100px;
+  transform: rotate(10deg);
+    background-color:purple;
+}
+.tile13{
+  width: 1000px;
+  height:1000px;
+  margin -20px;
+  transform: rotate(350deg);
+    background-color: blue;
+}
+.tile14{
+  width: 1000px;
+  height: 10px;
+  margin: -50px;
+  transform: rotate(100deg);
+  background-color: green;
+  }
+
+  .tile15{
+    width: 150px;
+    height: 30px;
+    margin 15px;
+    transform: rotate(0deg);
+      background-color: lightblue;
+    border-top: 25px solid black;
+  	border-left: 50px solid black;
+  	border-bottom: 25px solid transparent;
     }
 
-    .tile2 {
-      width: 50px;
-      height:700px;
-      transform rotate(-100deg)
-      background-color: #006600;
-      }
-
-    .tile3 {
-
-      width: 100px;
+    .tile16{
+      width: 500px;
       height: 50px;
-
-        background-color: #0033cc;
-        }
+      margin 10px;
+      transform: rotate(80deg);
+        background-color: darkorange;
+    }
