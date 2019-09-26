@@ -1,38 +1,30 @@
 body {
   margin: 0;
-  overflow-x: hidden;
   background-color: green;
   width: 120%;
-  margin-left: -10%;
-  margin-top: -50px;
+  margin-left: 0%;
+  margin-top: 0px;
 }
 
  .two{
-   margin: 0;
-   overflow-x: hidden;
+
    background-color: black;
     }
   .three{
     margin: 0;
-    overflow-x: hidden;
+
   background-color: green;
 }
 .four{
-  margin: 0;
-  overflow-x: hidden;
+
   background-color: orange;
 }
 .five{
-  margin: 0;
-  overflow-x: hidden;
+
   background-color: yellow;
 }
 
- #container {
-   width: 120%;
-   margin-left: -10%;
-   margin-top: -50px;
-}
+
 
 }
 .tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8,
