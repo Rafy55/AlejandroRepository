@@ -1,0 +1,82 @@
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: lightgreen;
+  margin: 0;
+}
+/* pound sign references ID */
+#case1 {
+  background-color: lightblue;
+  width: 400px;
+  margin: 50px auto;
+}
+.tile1, .tile2 {
+  float: left;
+  border: 5px solid white;
+  width: 100px;
+  height: 200px;
+    background-color:#455566;
+}
+.tile3, .tile4{
+  float: left;
+  border: 5px solid white;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
+
+.tile5
+{
+  float: left;
+  border: 5px solid white;
+  width: 200px;
+  height: 100px;
+  background-color: #c7ccd1;
+}
+.tile6
+{
+  float: left;
+  border: 5px solid white;
+  width: 100px;
+  height: 400px;
+  background-color: #6a7684;
+}
+
+.tile7
+{
+  float: left;
+  border: 5px solid white;
+  width: 200px;
+  height: 400px;
+  background-color: #d9dde0;
+}
+
+.topright{
+
+    width:200px;
+    float: left;
+
+}
+.left{
+
+    width:100px;
+    float: left;
+
+}
+.bottom{
+
+    width:400px;
+    height:400px;
+
+}

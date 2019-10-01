@@ -17,21 +17,23 @@ body {
 }
 /* pound sign references ID */
 #court {
-  background-color: peru;
-  width: 600px;
+  background-color: lightblue;
+  width: 800px;
   margin: 50px auto;
 }
-.side, .back, .middle {
+.tile1,.tile2,.tile3,.tile4,.tile5,.tile6 {
   float: left;
   border: 5px solid white;
+  width: 100px;
+  height: 300px;
 }
-.center {
-  width: 400px;
-  float: left;
+.tile1 {
+  width: 100px;
+
 }
 .side {
   width: 100px;
-  height: 400px;
+  height: 300px;
 }
 .back {
   width: 400px;

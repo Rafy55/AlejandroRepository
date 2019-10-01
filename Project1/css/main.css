@@ -98,6 +98,37 @@ font-family: 'Permanent Marker', cursive;
 
 font-family: 'Neucha', cursive;
 }
+.part17{
+  color: #4c0000;
+  background-color:#cccccc;
+font-family: 'Neucha', cursive;
+ text-transform: lowercase;
+}
+
+.part18{
+  color: #660000;
+  background-color:#999999;
+font-family: 'Neucha', cursive;
+ text-transform: lowercase;
+}
+.part19{
+  color: #990000;
+  background-color:#666666;
+font-family: 'Neucha', cursive;
+ text-transform: lowercase;
+}
+.part20{
+  color:#990000;
+  background-color:#333333;
+font-family: 'Neucha', cursive;
+ text-transform: lowercase;
+}
+.part21{
+  color: #ff0000;
+  background-color:black;
+font-family: 'Neucha', cursive;
+ text-transform: lowercase;
+}
 img {
   max-width: 100%;
 
@@ -139,7 +170,7 @@ font-family: 'Kalam', cursive;
 
 #text5{
   color: white;
-
+ text-transform: lowercase;
   font-family: 'Indie Flower', cursive;
 
 }
@@ -157,7 +188,7 @@ font-family: 'Seymour One', sans-serif;
 
 #text8{
   color: white;
-
+ text-transform: lowercase;
   font-family: 'Indie Flower', cursive;
 
 }
@@ -176,7 +207,7 @@ font-family: 'Chango', cursive;
 }
 #text11{
   color: white;
-
+ text-transform: lowercase;
   font-family: 'Indie Flower', cursive;
 
 }
@@ -202,6 +233,41 @@ font-family: 'Mansalva', cursive;
   color: #869882;
 
 font-family: 'Permanent Marker', cursive;
+}
+#text16{
+  color: #869882;
+
+font-family: 'Permanent Marker', cursive;
+}
+#text17{
+  color: #4c0000;
+
+font-family: 'Neucha', cursive;
+ text-transform: lowercase;
+}
+#text18{
+  color: #660000;
+
+font-family: 'Neucha', cursive;
+ text-transform: lowercase;
+}
+#text19{
+  color: #990000;
+
+  font-family: 'Neucha', cursive;
+  text-transform: lowercase;
+}
+#text20{
+  color: #990000;
+
+font-family: 'Neucha', cursive;
+ text-transform: lowercase;
+}
+#text21{
+  color: #ff0000;
+  
+font-family: 'Neucha', cursive;
+ text-transform: lowercase;
 }
 #link5 {
   margin: 45vh 0 0;
@@ -497,7 +563,7 @@ a#text16:visited {
 }
 
 a#text16:hover {
-  color: darkgray;
+  color: #333333;
   cursor: crosshair;
 }
 
