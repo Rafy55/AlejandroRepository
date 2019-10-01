@@ -1,18 +1,76 @@
 
 
 body {
-  background-color: #c1be84;
+
   text-align: center;
-    font-family: 'Permanent Marker', cursive;
+
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 48px;
-  color: #767661
-
 
 }
 
+.part1{
+  color: #544444;
+    background-color: #c1be84;
+
+}
+.part2{
+  color: white;
+  background-color: #183a23;
+  font-family: 'Mansalva', cursive;
+}
+
+.part3{
+  color: #aad0be;
+  background-color: #272525;
+font-family: 'Courgette', cursive;
+}
+
+.part4{
+  color: #CACACA;
+  background-color:#c3ad9d;
+font-family: 'Kalam', cursive;
+}
+
+.part5{
+
+  background-color: black;
+
+}
+.part6{
+  color: #d5c8c8;
+  background-color:#869882;
+font-family: 'Shadows Into Light', cursive;
+}
+.part7{
+  color: yellow;
+  background-color:red;
+font-family: 'Seymour One', sans-serif;
+}
+
+.part8{
+
+  background-color: black;
+
+}
+.part9{
+  color: white;
+  background-color:	#7c7fa7;
+font-family: 'Gochi Hand', cursive;
+}
+.part10{
+  color: #743a74;
+  background-color:	#cccccc;
+font-family: 'Be Vietnam', sans-serif;
+}
+
+.part11{
+
+  background-color: black;
+
+}
 img {
   max-width: 100%;
 
@@ -21,29 +79,290 @@ img {
 a{
   color: #544444;
   text-decoration: none;
-  border-bottom: 10xp dotted blue
-  transition: color 1s ease  #0c0d49;
-;
+font-family: 'Permanent Marker', cursive;
+
+  transition: color 3s ease  #0c0d49;
+
 }
 
+
+#text1{
+  color: 	#183a23;
+
+  font-family: 'Permanent Marker', cursive;
+}
+
+#text2{
+  color: 	#183a23;
+
+  font-family: 'Mansalva', cursive;
+}
+
+#text3{
+  color: #aad0be;
+
+font-family: 'Courgette', cursive;
+}
+
+#text4{
+  color: #CACACA;
+
+font-family: 'Kalam', cursive;
+}
+
+#text5{
+  color: white;
+
+  font-family: 'Indie Flower', cursive;
+
+}
+#text6{
+  color: #d5c8c8;
+
+font-family: 'Shadows Into Light', cursive;
+}
+
+#text7{
+  color:yellow;
+
+font-family: 'Seymour One', sans-serif;
+}
+
+#text8{
+  color: white;
+
+  font-family: 'Indie Flower', cursive;
+
+}
+#text9{
+
+  color: white;
+
+  font-family: 'Gochi Hand', cursive;
+}
+#text10{
+
+  color: #743a74;
+
+font-family: 'Be Vietnam', sans-serif;
+}
+#text11{
+  color: white;
+
+  font-family: 'Indie Flower', cursive;
+
+}
+#link5 {
+  margin: 45vh 0 0;
+}
+
+#link8 {
+  margin: 45vh 0 0;
+}
+#link11 {
+  margin: 45vh 0 0;
 }
 /* Visited links */
-a:visited {
-  color: #0c0d49;
-;
+a#text1:visited {
+  color: #183a23;
 }
-
-a:hover {
-  color: black;
+a#text1:hover  {
+  color: #132e1c;
   cursor: crosshair;
 }
 
 /* Focused state */
-a:focus {
+a#text1:focus {
+  color: #c1be84;
+}
+
+/* Activated state */
+a#text1:active  {
+  color:#183a23;
+}
+
+a#text2:visited {
+  color: white;
+}
+a#text2:hover  {
+  color: gray;
+  cursor: crosshair;
+}
+
+/* Focused state */
+a#text2:focus {
   color: #183a23;
 }
 
 /* Activated state */
-a:active {
+a#text2:active  {
+  color:#aad0be;
+}
+
+a#text3:visited {
+  color: #aad0be;
+}
+a#text3:hover  {
+  color:#769185;
+  cursor: crosshair;
+}
+
+/* Focused state */
+a#text3:focus {
+  color: #272525;
+}
+
+/* Activated state */
+a#text3:active  {
+  color:#aad0be;
+}
+
+a#text4:visited {
+  color: #CACACA;
+}
+a#text4:hover  {
+  color: #969696;
+  cursor: crosshair;
+}
+
+/* Focused state */
+a#text4:focus {
+  color: #c3ad9d;
+}
+
+/* Activated state */
+a#text4:active  {
+  color:#CACACA;
+}
+
+a#text5:visited {
+  color: white;
+}
+
+a#text5:hover {
+  color: darkgray;
+  cursor: crosshair;
+}
+
+/* Focused state */
+a#text5:focus {
+  color: white;
+}
+
+/* Activated state */
+a#text5:active {
+  color: black;
+}
+
+a#text6:visited {
+  color: #d5c8c8;
+}
+
+a#text6:hover {
+  color: #887474;
+  cursor: crosshair;
+}
+
+/* Focused state */
+a#text6:focus {
+  color: #d5c8c8;
+}
+
+/* Activated state */
+a#text6:active {
+  color: #869882;
+}
+a#text7:visited {
+  color: yellow;
+}
+
+a#text7:hover {
+  color: darkkhaki;
+  cursor: crosshair;
+}
+
+/* Focused state */
+a#text7:focus {
+  color: yellow;
+}
+
+/* Activated state */
+a#text7:active {
+  color: red;
+}
+
+a#text8:visited {
+  color: white;
+}
+
+a#text8:hover {
+  color: darkgray;
+  cursor: crosshair;
+}
+
+/* Focused state */
+a#text8:focus {
+  color: white;
+}
+
+/* Activated state */
+a#text8:active {
+  color: black;
+}
+
+a#text9:visited {
+  color: white;
+}
+
+a#text9:hover {
+  color: darkgray;
+  cursor: crosshair;
+}
+
+/* Focused state */
+a#text9:focus {
+  color: white;
+}
+
+/* Activated state */
+a#text9:active {
+  color: #7c7fa7;
+}
+
+a#text10:visited {
+  color: #743a74;
+}
+
+a#text10:hover {
+  color: 	#3e1e3e;
+  cursor: crosshair;
+}
+
+/* Focused state */
+a#text10:focus {
+  color: #743a74;
+}
+
+/* Activated state */
+a#text10:active {
+  color: 	#cccccc;
+}
+
+a#text11:visited {
+  color: white;
+}
+
+a#text11:hover {
+  color: darkgray;
+  cursor: crosshair;
+}
+
+/* Focused state */
+a#text11:focus {
+  color: white;
+}
+
+/* Activated state */
+a#text11:active {
   color: black;
 }

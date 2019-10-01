@@ -1,0 +1,32 @@
+body{
+
+background-color: #333333;
+}
+#container{
+  width: 800px;
+  height: 800px;
+  margin: auto;
+
+}
+.tile1{
+  width: 95px;
+  height: 395px;
+  background-color: crimson;
+  float: left;
+}
+
+.tile2{
+  width: 590px;
+  height: 133px;
+  background-color: crimson;
+  float: left;
+  margin-left: 10px;
+}
+
+.tile3{
+  width: 95px;
+  height: 395px;
+  background-color: crimson;
+  float: left;
+  margin-left: 10px;
+}
