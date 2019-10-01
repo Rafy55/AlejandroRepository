@@ -71,6 +71,33 @@ font-family: 'Chango', cursive;
   background-color: black;
 
 }
+.part12{
+  color: #404040;
+  background-color:	#6D8292;
+font-family: 'Courgette', cursive;
+}
+
+.part13{
+  color: #bbd2d0;
+  background-color:#101442;
+font-family: 'Mansalva', cursive;
+}
+
+.part14{
+  color: #bbd2d0;
+  background-color:#101442;
+font-family: 'Mansalva', cursive;
+}
+
+.part15{
+  color: #869882;
+  background-color:#776565;
+font-family: 'Permanent Marker', cursive;
+}
+.part16{
+
+font-family: 'Neucha', cursive;
+}
 img {
   max-width: 100%;
 
@@ -146,11 +173,35 @@ font-family: 'Seymour One', sans-serif;
 
 font-family: 'Chango', cursive;
 }
+}
 #text11{
   color: white;
 
   font-family: 'Indie Flower', cursive;
 
+}
+
+#text12{
+  color: #404040;
+
+font-family: 'Courgette', cursive;
+
+}
+#text13{
+  color: #bbd2d0;
+
+font-family: 'Mansalva', cursive;
+}
+#text14{
+  color: #bbd2d0;
+
+font-family: 'Mansalva', cursive;
+}
+
+#text15{
+  color: #869882;
+
+font-family: 'Permanent Marker', cursive;
 }
 #link5 {
   margin: 45vh 0 0;
@@ -365,4 +416,97 @@ a#text11:focus {
 /* Activated state */
 a#text11:active {
   color: black;
+}
+
+a#text12:visited {
+  color: #404040;
+}
+
+a#text12:hover {
+  color: lightgray;
+  cursor: crosshair;
+}
+
+/* Focused state */
+a#text12:focus {
+  color: #404040;
+}
+
+/* Activated state */
+a#text12:active {
+  color: #6D8292;
+}
+a#text13:visited {
+  color: #bbd2d0;
+}
+
+a#text13:hover {
+  color:#95a8a6;
+  cursor: crosshair;
+}
+
+/* Focused state */
+a#text13:focus {
+  color: #bbd2d0;
+}
+
+/* Activated state */
+a#text13:active {
+  color: #101442;
+}
+a#text14:visited {
+  color: #bbd2d0;
+}
+
+a#text14:hover {
+  color:#95a8a6;
+  cursor: crosshair;
+}
+
+/* Focused state */
+a#text14:focus {
+  color: #bbd2d0;
+}
+
+/* Activated state */
+a#text14:active {
+  color: #101442;
+}
+
+a#text15:visited {
+color: #869882;
+}
+
+a#text15:hover {
+  color: #6b7968;
+  cursor: crosshair;
+}
+
+/* Focused state */
+a#text15:focus {
+    color: #869882;
+}
+
+/* Activated state */
+a#text15:active {
+  color: #776565;
+}
+
+a#text16:visited {
+  color: black;
+}
+
+a#text16:hover {
+  color: darkgray;
+  cursor: crosshair;
+}
+
+/* Focused state */
+a#text16:focus {
+  color: black;
+}
+
+/* Activated state */
+a#text16:active {
+  color: white;
 }

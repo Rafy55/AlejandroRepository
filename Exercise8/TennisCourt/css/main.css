@@ -3,19 +3,27 @@ body{
 background-color: #333333;
 }
 #container{
-  width: 800px;
-  height: 800px;
+  width: 600px;
+
   margin: auto;
 
 }
-.tile1{
-  width: 95px;
-  height: 395px;
+
+.side,.back,.middle
+{
+    float: left;
+    border: 
+}
+.side{
+
+
+  width: 100px;
+  height: 400px;
   background-color: crimson;
-  float: left;
+
 }
 
-.tile2{
+.back{
   width: 590px;
   height: 133px;
   background-color: crimson;
@@ -23,9 +31,9 @@ background-color: #333333;
   margin-left: 10px;
 }
 
-.tile3{
-  width: 95px;
-  height: 395px;
+.side2{
+  width: 100px;
+  height: 400px;
   background-color: crimson;
   float: left;
   margin-left: 10px;
