@@ -34,7 +34,7 @@ font-family: 'Courgette', cursive;
 font-family: 'Kalam', cursive;
 }
 
-.part5{
+.part5, .part27{
 
   background-color: black;
 
@@ -129,6 +129,37 @@ font-family: 'Neucha', cursive;
 font-family: 'Neucha', cursive;
  text-transform: lowercase;
 }
+.part22{
+color: #ff0000;
+  background-color:black;
+font-family: 'Neucha', cursive;
+ text-transform: lowercase;
+}
+.part23{
+
+  background-color:black;
+font-family: 'Neucha', cursive;
+ text-transform: lowercase;
+}
+.part24{
+
+  background-color:black;
+font-family: 'Neucha', cursive;
+ text-transform: lowercase;
+}
+
+.part25{
+color: #606f58;
+  background-color:#a2aab2;
+font-family: 'Neucha', cursive;
+
+}
+.part26{
+color: #606f58;
+  background-color:#a2aab2;
+font-family: 'Neucha', cursive;
+
+}
 img {
   max-width: 100%;
 
@@ -148,23 +179,32 @@ font-family: 'Permanent Marker', cursive;
   color: 	#183a23;
 
   font-family: 'Permanent Marker', cursive;
+   border-bottom-style: solid;
+  border-width:.5px;
+  border-bottom-color:white;
 }
 
 #text2{
-  color: 	#183a23;
-
+  color: white;
+  border-bottom-style: solid;
+ border-width:.5px;
+ border-bottom-color:white;
   font-family: 'Mansalva', cursive;
 }
 
 #text3{
   color: #aad0be;
-
+  border-bottom-style: solid;
+ border-width:.5px;
+ border-bottom-color:white;
 font-family: 'Courgette', cursive;
 }
 
 #text4{
   color: #CACACA;
-
+  border-bottom-style: solid;
+ border-width:.5px;
+ border-bottom-color:white;
 font-family: 'Kalam', cursive;
 }
 
@@ -174,15 +214,26 @@ font-family: 'Kalam', cursive;
   font-family: 'Indie Flower', cursive;
 
 }
+
+#text27{
+  color: white;
+ text-transform: lowercase;
+  font-family: 'Indie Flower', cursive;
+
+}
 #text6{
   color: #d5c8c8;
-
+  border-bottom-style: solid;
+ border-width:.5px;
+ border-bottom-color:white;
 font-family: 'Shadows Into Light', cursive;
 }
 
 #text7{
   color:yellow;
-
+  border-bottom-style: solid;
+ border-width:.5px;
+ border-bottom-color:white;
 font-family: 'Seymour One', sans-serif;
 }
 
@@ -195,13 +246,17 @@ font-family: 'Seymour One', sans-serif;
 #text9{
 
   color: white;
-
+  border-bottom-style: solid;
+ border-width:.5px;
+ border-bottom-color:white;
   font-family: 'Gochi Hand', cursive;
 }
 #text10{
 
   color: #743a74;
-
+  border-bottom-style: solid;
+ border-width:.5px;
+ border-bottom-color:white;
 font-family: 'Chango', cursive;
 }
 }
@@ -214,30 +269,37 @@ font-family: 'Chango', cursive;
 
 #text12{
   color: #404040;
-
+  border-bottom-style: solid;
+ border-width:.5px;
+ border-bottom-color:white;
 font-family: 'Courgette', cursive;
 
 }
 #text13{
   color: #bbd2d0;
-
+  border-bottom-style: solid;
+ border-width:.5px;
+ border-bottom-color:white;
 font-family: 'Mansalva', cursive;
 }
 #text14{
   color: #bbd2d0;
-
+  border-bottom-style: solid;
+ border-width:.5px;
+ border-bottom-color:white;
 font-family: 'Mansalva', cursive;
 }
 
 #text15{
   color: #869882;
-
+  border-bottom-style: solid;
+ border-width:.5px;
+ border-bottom-color:white;
 font-family: 'Permanent Marker', cursive;
 }
 #text16{
-  color: #869882;
-
-font-family: 'Permanent Marker', cursive;
+  font-family: 'Neucha', cursive;
+   text-transform: lowercase;
 }
 #text17{
   color: #4c0000;
@@ -265,9 +327,37 @@ font-family: 'Neucha', cursive;
 }
 #text21{
   color: #ff0000;
-  
+
 font-family: 'Neucha', cursive;
  text-transform: lowercase;
+}
+#text22{
+  color: #ff0000;
+
+font-family: 'Neucha', cursive;
+ text-transform: lowercase;
+}
+#text23{
+  color: #ff0000;
+
+font-family: 'Neucha', cursive;
+ text-transform: lowercase;
+}
+#text25{
+  color: #606f58;
+  border-bottom-style: solid;
+ border-width:.5px;
+ border-bottom-color:white;
+  font-family: 'Neucha', cursive;
+
+}
+#text26{
+  color: #606f58;
+  border-bottom-style: solid;
+ border-width:.5px;
+ border-bottom-color:white;
+  font-family: 'Neucha', cursive;
+
 }
 #link5 {
   margin: 45vh 0 0;
@@ -277,6 +367,18 @@ font-family: 'Neucha', cursive;
   margin: 45vh 0 0;
 }
 #link11 {
+  margin: 45vh 0 0;
+}
+#link22 {
+  margin: 45vh 0 0;
+}
+#link23 {
+  margin: 45vh 0 0;
+}
+#link11 {
+  margin: 45vh 0 0;
+}
+#link27 {
   margin: 45vh 0 0;
 }
 /* Visited links */
@@ -371,6 +473,24 @@ a#text5:active {
   color: black;
 }
 
+a#text27:visited {
+  color: white;
+}
+
+a#text27:hover {
+  color: darkgray;
+  cursor: crosshair;
+}
+
+/* Focused state */
+a#text27:focus {
+  color: white;
+}
+
+/* Activated state */
+a#text27:active {
+  color: black;
+}
 a#text6:visited {
   color: #d5c8c8;
 }
@@ -575,4 +695,13 @@ a#text16:focus {
 /* Activated state */
 a#text16:active {
   color: white;
+}
+
+a#text25:hover {
+  color: #679252;
+  cursor: crosshair;
+}
+a#text26:hover {
+  color: #679252;
+  cursor: crosshair;
 }
