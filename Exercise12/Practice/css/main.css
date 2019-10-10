@@ -1,0 +1,30 @@
+.black{
+  background-color: Black;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+}
+
+h1{
+  font-family: attribute-mono, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin:0;
+  font-size: 38vw;
+line-height: 0.8;
+
+}
+h2{
+font-family: whitman, serif;
+  font-weight: 700;
+  font-style: italic;
+  text-transform: capitalize;
+  margin:0;
+  font-size: 60px;
+line-height: 0.8;
+
+}
+.text{
+  width:25%;
+  margins: 100px auto:
+}

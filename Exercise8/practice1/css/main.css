@@ -12,12 +12,12 @@
   box-sizing: border-box;
 }
 body {
-  background-color: lightgreen;
+  background-color: black;
   margin: 0;
 }
 /* pound sign references ID */
 #case1 {
-  background-color: lightblue;
+  background-color: red;
   width: 400px;
   margin: 50px auto;
 }
