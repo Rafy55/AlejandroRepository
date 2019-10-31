@@ -1,0 +1,204 @@
+body{
+
+}
+.container{
+  width: 1200px;
+  height: 1000px;
+  background-color: #3c4e61;
+  margin:auto;
+  z-index: 3;
+}
+.head{
+  height: 200px;
+ width: 200px;
+ background-color: #4d7349;
+ border-radius: 50%;
+ display: inline-block;
+ position: relative;
+ margin: 0;
+ text-align: center;
+ left: 200px;
+}
+
+.body{
+  border-radius: 25px;
+background: #4d7349;
+padding: 20px;
+width: 150px;
+height: 300px;
+position: relative;
+ left: 200px;
+ margin:0px;
+ z-index: 3;
+}
+.shirt{
+  border-radius: 25px;
+background: red;
+padding: 20px;
+width: 150px;
+height: 200px;
+position: relative;
+right: 20px;
+bottom:20px;
+z-index: 2;
+}
+.pants{
+
+border-radius: 25px;
+background: darkblue;
+padding: 20px;
+width: 150px;
+height: 70px;
+position: relative;
+right: 20px;
+bottom:20px;
+z-index: 2;
+}
+
+
+
+.sleeve{
+  border-radius: 25px;
+background: #b0261c;
+padding: 20px;
+width: 110px;
+height: 50px;
+transform: rotate(0deg);
+position: relative;
+bottom:20px;
+right: 20px;
+
+}
+.arm2{
+  border-radius: 25px;
+background: #4d7349;
+padding: 20px;
+width: 250px;
+height: 50px;
+transform: rotate(0deg);
+position:relative;
+
+}
+
+.leg2{
+  border-radius: 25px;
+background: #4d7349;
+padding: 20px;
+width: 50px;
+height: 200px;
+transform: rotate(-20deg);
+position: relative;
+left: 120px;
+
+bottom: 30px;
+}
+.blood{
+
+background: #750e07;
+padding: 20px;
+width: 50px;
+height: .05px;
+
+position: relative;
+right:20px;
+bottom:30px;
+}
+.legsleeve2{
+
+background: darkblue;
+padding: 20px;
+width: 50px;
+height: 100px;
+
+position: relative;
+right:20px;
+bottom:30px;
+}
+.leg1{
+  border-radius: 25px;
+background: #4d7349;
+padding: 20px;
+width: 50px;
+height: 200px;
+transform: rotate(0deg);
+position: relative;
+left: 200px;
+
+bottom: 30px;
+}
+
+.legsleeve1{
+
+background: darkblue;
+padding: 20px;
+width: 50px;
+height: 150px;
+
+position: relative;
+right:20px;
+bottom:30px;
+}
+.eye{
+height: 35px;
+width: 35px;
+background-color: black;
+border-radius: 50%;
+display: inline-block;
+position: relative;
+margin: auto;
+top:45px;
+left: 120px;
+}
+.lileye{
+height: 5px;
+width: 5px;
+background-color: white;
+border-radius: 50%;
+display: inline-block;
+position: relative;
+margin: auto;
+top:5px;
+left:10px;
+}
+
+.mouth{
+height: 45px;
+width: 80px;
+background-color: #3c4e61;
+border-radius: 50%;
+display: inline-block;
+position: relative;
+margin: auto;
+top:130px;
+left: 40px;
+}
+.tooth1{
+border-radius: 25px;
+background: #dfd0b7;
+
+width: 15px;
+height: 17px;
+position: relative;
+left:10px;
+}
+
+.tooth2{
+border-radius: 25px;
+background: #dfd0b7;
+position: relative;
+width: 15px;
+height: 17px;
+bottom: 15px;
+left:50px;
+}
+
+.tooth3{
+border-radius: 25px;
+background: #dfd0b7;
+position: relative;
+width: 15px;
+height: 17px;
+
+left:15px;
+bottom:9px;
+}
