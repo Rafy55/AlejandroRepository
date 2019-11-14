@@ -1,0 +1,213 @@
+html{
+zoom: 80%;
+}
+body{
+  background: black;
+}
+
+.container{
+  height: 4800px;
+  width: 1440px;
+}
+
+.top {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0;
+  left:5%;
+  text-align: center;
+   display: block;
+}
+
+.tree{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin: 0;
+  text-align: center;
+       display: block;
+
+}
+.Rene{
+  width:auto;
+  height: auto;
+}
+.Dali{
+  width:auto;
+  height: auto;
+}
+.Breton{
+  width:auto;
+  height: auto;
+}
+.Earnst{
+  width:auto;
+  height: auto;
+}
+.Kahlo{
+  width:auto;
+  height: auto;
+}
+.line{
+  background: white;
+  border-radius: 25px;
+  width:100vh;
+  height: 1.3vh;
+   position: absolute;
+ }
+.Rene .line{
+
+   top:94vh;
+   left: 12vh;
+}
+.Dali .line{
+  top: 139vh;
+  right: 7vh;
+}
+.Breton .line{
+
+  top: 226vh;
+    right: 65vh;
+}
+
+.Earnst .line{
+  width: 140vh;
+      top: 306vh;
+      right: 28vh;
+}
+.Kahlo .line{
+  width: 162vh;
+    top: 388vh;
+    right: 24vh;
+}
+h1{
+  color: white;
+font-family: franklin-gothic-urw, sans-serif;
+font-weight: 500;
+font-style: normal;
+font-size: 5vh;
+position: absolute;
+}
+
+.Rene h1{
+
+bottom: -250%;
+left: 63%;
+}
+
+.Dali h1{
+  bottom: -250%;
+  left: 7%;
+}
+.Breton h1{
+
+bottom: -250%;
+left: 63%;
+}
+.Earnst h1{
+  bottom: -250%;
+  left: 7%;
+}
+
+.Kahlo h1{
+  bottom: -250%;
+  left: 37%;
+}
+.dropdown-content1 {
+
+  position: absolute;
+width: 100%;
+height: auto;
+  z-index: 1;
+}
+.Rene .dropdown-content1{
+top: 95vh;
+right: 54vh;
+}
+
+.Dali .dropdown-content1{
+  width: auto;
+      height: 10vh;
+      top: 140vh;
+    left: 131vh;
+  }
+.Breton .dropdown-content1{
+
+  top: 227vh;
+right: 45vh;
+    }
+
+    .Earnst .dropdown-content1{
+      width: auto;
+    height: 10vh;
+    top: 307vh;
+    left: 106vh;
+}
+.Kahlo .dropdown-content1{
+  width: auto;
+height: 10vh;
+top: 389vh;
+left: 5vh;
+}
+
+.dropdown-content1 img{
+  width: auto;
+  height: auto;
+}
+.text1{
+  position: absolute;
+
+  width: 26%;
+  height: auto%;
+
+  text-align: left;
+  position: absolute;
+  font-family: eb-garamond, serif;
+font-weight: 400;
+font-style: normal;
+font-size: 25px;
+line-height: 130%;
+
+}
+
+.Rene .text1{
+  top: 3vh;
+  left:71vh;
+}
+
+.Dali .text1{
+  width: 86%;
+  height: auto%;
+
+  top: 3vh;
+  left:4vh;
+}
+.Breton .text1{
+  width: 23%;
+      height: auto%;
+      top: 3vh;
+      left: 73vh;
+}
+.Earnst .text1{
+  width: 86%;
+  height: auto%;
+
+  top: 3vh;
+  left:4vh;
+}
+.Kahlo .text1{
+  width: 96%;
+  height: auto%;
+
+  top: 3vh;
+  left:4vh;
+}
+/*.dropdown:hover .dropdown-content {
+  display: block;
+}
+*/
+@media only screen and (max-width: 900px) {
+
+
+ }
