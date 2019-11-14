@@ -1,25 +1,54 @@
 html{
-zoom: 80%;
+  zoom:110%;
 }
 body{
   background: black;
 }
 
+.dropdown-content1 img{
+  width: auto;
+  height: auto;
+}
 .container{
-  height: 4800px;
+  height: 4400px;
   width: 1440px;
+
+    position: absolute;
+    margin: 0;
+    text-align: center;
+         display: block;
+}
+.painting{
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 
+.Rene .painting img{
+
+  position: absolute;
+bottom: 118%;
+  text-align: center;
+   word-wrap: break-word;
+align: left;
+}
 .top {
   width: 100%;
   height: 100%;
   position: absolute;
   margin: 0;
-  left:5%;
+  left:50%;
   text-align: center;
    display: block;
 }
+.static {
+  position:absolute;
 
+}
+
+.static:hover {
+  opacity:0;
+}
 .tree{
   width: 100%;
   height: 100%;
@@ -51,42 +80,42 @@ body{
 }
 .line{
   background: white;
-  border-radius: 25px;
-  width:100vh;
-  height: 1.3vh;
+  border-radius: 40%;
+  width: 51%;
+  height: 0.22%;
    position: absolute;
  }
 .Rene .line{
 
-   top:94vh;
-   left: 12vh;
+  top: 15.9%;
+   left: 7%;
 }
 .Dali .line{
-  top: 139vh;
-  right: 7vh;
+width: 48%;
+  top: 26%;
+  right: 0%;
 }
 .Breton .line{
-
-  top: 226vh;
-    right: 65vh;
+  top: 38.2%;
+      right: 40%;
 }
 
 .Earnst .line{
-  width: 140vh;
-      top: 306vh;
-      right: 28vh;
+  width: 79%;
+top: 51.6%;
+right: 10%;
 }
 .Kahlo .line{
-  width: 162vh;
-    top: 388vh;
-    right: 24vh;
+  width: 92%;
+      top: 65.5%;
+      right: 5%;
 }
 h1{
   color: white;
 font-family: franklin-gothic-urw, sans-serif;
 font-weight: 500;
 font-style: normal;
-font-size: 5vh;
+font-size: 244%;
 position: absolute;
 }
 
@@ -121,93 +150,146 @@ width: 100%;
 height: auto;
   z-index: 1;
 }
+
+
 .Rene .dropdown-content1{
-top: 95vh;
-right: 54vh;
+
+  top: 16%;
+  right: 26%;
 }
+
 
 .Dali .dropdown-content1{
   width: auto;
-      height: 10vh;
-      top: 140vh;
-    left: 131vh;
-  }
-.Breton .dropdown-content1{
 
-  top: 227vh;
-right: 45vh;
+  height: 11%;
+  top: 26.1%;
+  left: 70%;
+}
+.Breton .dropdown-content1{
+height: 11%;
+  top: 38.4%;
+      right: 24%;
     }
 
     .Earnst .dropdown-content1{
       width: auto;
-    height: 10vh;
-    top: 307vh;
-    left: 106vh;
+      height: 11%;
+        top: 51.7%;
+        left: 52%;
 }
 .Kahlo .dropdown-content1{
   width: auto;
-height: 10vh;
-top: 389vh;
-left: 5vh;
+
+  height: 10%;
+  top: 65.65%;
+  left: 9%;
 }
 
-.dropdown-content1 img{
-  width: auto;
-  height: auto;
-}
+
+
 .text1{
   position: absolute;
 
-  width: 26%;
-  height: auto%;
+  width: 24%;
+  height: auto;
 
   text-align: left;
   position: absolute;
   font-family: eb-garamond, serif;
 font-weight: 400;
 font-style: normal;
-font-size: 25px;
+font-size: 145%;
 line-height: 130%;
 
 }
 
 .Rene .text1{
-  top: 3vh;
-  left:71vh;
+  top: 3%;
+    left: 38%;
+    align: left;
 }
 
 .Dali .text1{
   width: 86%;
-  height: auto%;
+  height: auto;
 
-  top: 3vh;
-  left:4vh;
+  top:5%;
+  left:4%;
 }
 .Breton .text1{
   width: 23%;
-      height: auto%;
-      top: 3vh;
-      left: 73vh;
+      height: auto;
+      top: 5%;
+left: 38%;
 }
 .Earnst .text1{
   width: 86%;
   height: auto%;
 
-  top: 3vh;
-  left:4vh;
+
+    top:5%;
+    left:6%;
 }
 .Kahlo .text1{
-  width: 96%;
-  height: auto%;
+  width: 93%;
+      height: auto;
+      top: 5%;
+      left: 4%;
+}
 
-  top: 3vh;
-  left:4vh;
+.portraits{
+
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0;
+  text-align: center;
+       display: block;
+}
+.portraits .Renep{
+  top: 12%;
+      left: 24%;
+    position: absolute;
+}
+
+.portraits .Dalip{
+position: absolute;
+top: 23%;
+    left: 78%;
+}
+.portraits .Bretonp{
+position: absolute;
+top: 34%;
+    left: 22%;
+}
+
+.portraits .Picassop{
+position: absolute;
+top: 47%;
+    left: 53%;
+}
+.portraits .Fridap{
+position: absolute;
+top: 58.3%;
+    left: -7%;
 }
 /*.dropdown:hover .dropdown-content {
   display: block;
 }
 */
-@media only screen and (max-width: 900px) {
-
-
+@media only screen and (max-width:1024px) {
+body{
+  background-color: blue;
+}
  }
+ @media only screen and (max-width:768px) {
+   body{
+     background-color: white;
+   }
+
+  }
+  @media only screen and (max-width:328px) {
+    body{
+      background-color: red;
+    }
