@@ -1,5 +1,6 @@
 html{
   zoom:110%;
+  overflow-x:hidden
 }
 body{
   background: black;
@@ -10,7 +11,7 @@ body{
   height: auto;
 }
 .container{
-  height: 4400px;
+      height: auto;
   width: 1440px;
 
     position: absolute;
@@ -30,7 +31,7 @@ body{
 bottom: 118%;
   text-align: center;
    word-wrap: break-word;
-align: left;
+float: left;
 }
 .top {
   width: 100%;
@@ -58,24 +59,55 @@ align: left;
        display: block;
 
 }
+
+.tree img tree2.png{
+  display:none;
+}
 .Rene{
-  width:auto;
+  float:left;
+  position: absolute;
+top: 16.5%;
+    left:11%;
+  width:91%;
   height: auto;
+
+
 }
 .Dali{
-  width:auto;
+  float:left;
+  position: absolute;
+  top: 31.5%;
+      left: 50%;
+        width: 47%;
   height: auto;
+
 }
 .Breton{
-  width:auto;
+  float:right;
+  position: absolute;
+  top: 47.5%;
+      left: 16%;
+      width: 47%;
   height: auto;
+
 }
 .Earnst{
-  width:auto;
-  height: auto;
+  float:left;
+  position: absolute;
+  float: left;
+      position: absolute;
+      top: 64.5%;
+      left: 19%;
+      width: 47%;
+      height: auto;
 }
 .Kahlo{
-  width:auto;
+
+  float: left;
+  position: absolute;
+  top: 90.5%;
+  left: 9%;
+  width: 47%;
   height: auto;
 }
 .line{
@@ -86,30 +118,15 @@ align: left;
    position: absolute;
  }
 .Rene .line{
-
-  top: 15.9%;
-   left: 7%;
-}
-.Dali .line{
-width: 48%;
-  top: 26%;
-  right: 0%;
-}
-.Breton .line{
-  top: 38.2%;
-      right: 40%;
-}
-
-.Earnst .line{
-  width: 79%;
-top: 51.6%;
-right: 10%;
-}
-.Kahlo .line{
-  width: 92%;
-      top: 65.5%;
-      right: 5%;
-}
+  width: 53%;
+  height: 2%;
+  }
+  .Dali .line{
+    width: 100%;
+    }
+    .Breton .line{
+      width: 100%;
+      }
 h1{
   color: white;
 font-family: franklin-gothic-urw, sans-serif;
@@ -153,9 +170,8 @@ height: auto;
 
 
 .Rene .dropdown-content1{
+right: 31%;
 
-  top: 16%;
-  right: 26%;
 }
 
 
@@ -163,26 +179,26 @@ height: auto;
   width: auto;
 
   height: 11%;
-  top: 26.1%;
-  left: 70%;
+
+left: 41%;
 }
 .Breton .dropdown-content1{
 height: 11%;
-  top: 38.4%;
+
       right: 24%;
     }
 
     .Earnst .dropdown-content1{
       width: auto;
       height: 11%;
-        top: 51.7%;
-        left: 52%;
+
+        left: 58%;
 }
 .Kahlo .dropdown-content1{
   width: auto;
 
   height: 10%;
-  top: 65.65%;
+
   left: 9%;
 }
 
@@ -218,10 +234,10 @@ line-height: 130%;
   left:4%;
 }
 .Breton .text1{
-  width: 23%;
-      height: auto;
-      top: 5%;
-left: 38%;
+  width: 41%;
+  height: auto;
+  top: 7%;
+  left: 27%;
 }
 .Earnst .text1{
   width: 86%;
@@ -241,55 +257,91 @@ left: 38%;
 .portraits{
 
   width: 100%;
-  height: 100%;
+  height: 82.7%;
   position: absolute;
   margin: 0;
   text-align: center;
        display: block;
+align: left;
 }
 .portraits .Renep{
-  top: 12%;
+  top: 13%;
       left: 24%;
     position: absolute;
 }
 
 .portraits .Dalip{
 position: absolute;
-top: 23%;
+top: 28%;
     left: 78%;
 }
 .portraits .Bretonp{
 position: absolute;
-top: 34%;
+top: 44%;
     left: 22%;
 }
 
 .portraits .Picassop{
 position: absolute;
-top: 47%;
-    left: 53%;
+top: 62%;
+    left: 50%;
 }
 .portraits .Fridap{
 position: absolute;
-top: 58.3%;
-    left: -7%;
+top: 80.3%;
+left: 56%;
 }
-/*.dropdown:hover .dropdown-content {
-  display: block;
-}
-*/
+
 @media only screen and (max-width:1024px) {
-body{
-  background-color: blue;
+
+html{
+  width: 1024px;
+  text-align: center;
+  overflow-x:hidden
+}
+
+.top img{
+  width:100%;
+  height: auto;
+}
+.Dali{
+    left: 31%;
+}
+
+.Dali h1{
+  left: 44%;
+}
+.portraits .Dalip{
+  transform: scaleX(-1);
+      top: 40%;
+      left: 41%;
+}
+
+.Kahlo .text1{
+  width: 78%;
+  left: 5%;
 }
  }
  @media only screen and (max-width:768px) {
    body{
      background-color: white;
    }
-
+   html{
+     width: 768px;
+   }
+.tree img Tree.png{
+  display:none;
+}
+.tree img tree2.png{
+  display:block;
+}
   }
   @media only screen and (max-width:328px) {
     body{
       background-color: red;
     }
+  }
+/*.dropdown:hover .dropdown-content {
+  display: block;
+}
+*/
