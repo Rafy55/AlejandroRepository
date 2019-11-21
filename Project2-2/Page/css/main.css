@@ -1,29 +1,90 @@
+.clearfix:after {
+display:table;
+content:"";
+clear:both;
+}
+*{
+box-sizing: border-box;
+}
 html{
-
-  overflow-x:hidden
+zoom:110%;
+overflow-x:hidden
 }
 body{
-  background: black;
+background: black;
 }
 .mobile{
-  display: none;
+display: none;
+}
+
+.desktop{
+
 }
 .dropdown-content1 img{
-  width: auto;
-  height: auto;
+width: auto;
+height: auto;
 }
 .container{
-      height: auto;
-  width: 1440px;
+height: auto;
+width: 100%;
 
 
-    margin: 0;
-    text-align: center;
-         display: block;
+margin: 0;
+text-align: center;
+display: block;
 }
 .painting{
-  width: 100%;
-  height: 100%;
+width: 100%;
+height: 100%;
+
+}
+
+
+.top {
+
+
+margin: 0;
+left:50%;
+text-align: center;
+display: block;
+}
+.title{
+max-width:100%;
+height:auto;
+max-height:100%;
+}
+.eye{
+max-width:100%;
+height:auto;
+max-height:100%;
+}
+
+.tree{
+width: 100%;
+height: 100%;
+position: relative;
+margin: 0;
+text-align: center;
+display: block;
+/* background: url(../Images1440/Tree.png) no-repeat top center ;
+
+background-size: 100%; */
+}
+
+.tree img {
+width: 100%;
+}
+.Rene{
+
+position:absolute;
+top: 14%;
+left: 1%;
+}
+.renep img{
+width:0%;
+height: auto;
+z-index: 0;
+position: relative;
 
 }
 
@@ -31,99 +92,66 @@ body{
 
 
 bottom: 118%;
-  text-align: center;
-   word-wrap: break-word;
+text-align: center;
+word-wrap: break-word;
 float: left;
 }
-.top {
-  width: 100%;
-  height: 100%;
 
-  margin: 0;
-  left:50%;
-  text-align: center;
-   display: block;
-}
-
-.tree{
-  width: 100%;
-  height: 100%;
-  position: ;
-  margin: 0;
-  text-align: center;
-       display: block;
+.Rene .line{
 
 }
 
-.tree img tree2.png{
-  display:none;
-}
-.Rene{
-  float:left;
+h1{
 
-top: 16.5%;
-    left:11%;
-  width:91%;
-  height: auto;
+margin: 0 0 -11px;
+}
+
+.Rene .dropdown-content1{
 
 
 }
+
 .Dali{
-  float:left;
-
-  top: 31.5%;
-      left: 50%;
-        width: 47%;
-  height: auto;
+position:absolute;
+top: 23%;
+left:39%;
 
 }
 .Breton{
-  float:right;
-
-  top: 47.5%;
-      left: 16%;
-      width: 47%;
-  height: auto;
-
+position: absolute;
+top: 78%;
+left: 25%;
 }
 .Earnst{
-  float:left;
-
-
-
-      top: 64.5%;
-      left: 19%;
-      width: 47%;
-      height: auto;
+position:absolute;
+top: 39%;
+left: 10%;
 }
 .Kahlo{
 
-  float: left;
-
-  top: 90.5%;
-  left: 9%;
-  width: 47%;
-  height: auto;
+position: absolute;
+top: 56%;
+left: 20%;
 }
 .line{
-  background: white;
+background: white;
 
-  border-radius: 40vw;
-      width: 67%;
-      height: 1vw;
+border-radius: 40vw;
+width: 67%;
+height: 1vw;
 }
-.Rene .line{
-  width: 53%;
 
-  }
-  .Dali .line{
-    width: 100%;
-    }
-    .Breton .line{
-      width: 100%;
-      }
+.Dali .line{
+
+}
+.Earnst .line{
+width: 76%;
+}
+.Breton .line{
+width: 76%;
+}
 h1{
-  color: white;
+color: white;
 font-family: franklin-gothic-urw, sans-serif;
 font-weight: 500;
 font-style: normal;
@@ -131,136 +159,108 @@ font-size: 244%;
 
 }
 
-.Rene h1{
 
-bottom: -250%;
-left: 63%;
-}
 
 .Dali h1{
-  bottom: -250%;
-  left: 7%;
+text-align: left;
+
 }
 .Breton h1{
 
-bottom: -250%;
-left: 63%;
+text-align: left;
 }
 .Earnst h1{
-  bottom: -250%;
-  left: 7%;
+margin-left: 254px;
 }
 
 .Kahlo h1{
-  bottom: -250%;
-  left: 37%;
+text-align: left;
 }
 .dropdown-content1 {
 
 
 width: 100%;
 height: auto;
-  z-index: 1;
+z-index: 1;
 }
 
 
-.Rene .dropdown-content1{
-right: 31%;
 
-}
 
 
 .Dali .dropdown-content1{
-  width: auto;
-
-  height: 11%;
-
-left: 41%;
+left:10%;
 }
 .Breton .dropdown-content1{
-height: 11%;
 
-      right: 24%;
-    }
+}
 
-    .Earnst .dropdown-content1{
-      width: auto;
-      height: 11%;
-
-        left: 58%;
+.Earnst .dropdown-content1{
+right:10%;
 }
 .Kahlo .dropdown-content1{
-  width: auto;
+width: auto;
 
-  height: 10%;
+height: 10%;
 
-  left: 9%;
+left: 9%;
 }
 
 
 
 .text1{
 
-  background: url(../Images1440/dropdown.png) no-repeat center center ;
+background: url(../Images1440/dropdown.png) no-repeat center center ;
 
-   background-size: cover;
-  width: 24%;
-  height: auto;
+background-size: cover;
+width: 24%;
+height: auto;
 
-  text-align: left;
+text-align: left;
 
-  font-family: eb-garamond, serif;
+font-family: eb-garamond, serif;
 font-weight: 400;
 font-style: normal;
 font-size: 145%;
 line-height: 130%;
-
+padding: 25px  25px 100px;
+margin-left: 50px;
 }
 
 .Rene .text1{
 
 
-    align: left;
 }
 
-.Dali .text1{
-  width: 86%;
-  height: auto;
-
-
-
+.Dali .text1 {
+margin-left: 177px;
+width: 44%;
 }
 .Breton .text1{
-  width: 41%;
-  height: auto;
-
+margin-left: 383px;
+width: 36%;
 }
 .Earnst .text1{
-  width: 86%;
-  height: auto%;
-
-
-
+margin-left: 4px;
+width: 32%;
 }
 .Kahlo .text1{
-  width: 93%;
-      height: auto;
+margin-left: 236px;
+width: 44%;
 
 }
 
 .portraits{
 
-  width: 100%;
-  height: 82.7%;
+width: 100%;
+height: 82.7%;
 
-  margin: 0;
-  text-align: center;
-       display: block;
+margin: 0;
+text-align: center;
+display: block;
 align: left;
 }
-.portraits .Renep{
 
-}
 
 .portraits .Dalip{
 
@@ -282,51 +282,224 @@ align: left;
 @media only screen and (max-width:1024px) {
 
 html{
-  width: 1024px;
-  text-align: center;
-  overflow-x:hidden
-}
-
-.top img{
-  width:100%;
-  height: auto;
-}
-.Dali{
+/* width: 1024px; */
+text-align: center;
+overflow-x:hidden;
 
 }
 
-.Dali h1{
+.Rene .text1{
+
+width: 42%;
 
 }
-.portraits .Dalip{
-  transform: scaleX(-1);
+.Dali {
 
+top: 25%;
+left: 48%;
+}
+.Dali .text1 {
+margin-left: 127px;
+width: 74%;
+}
+.Dali .line{
+width: 100%;
+}
+.Earnst{
+top: 43%;
+left: -5%;
+}
+.Earnst .text1 {
+margin-left: 134px;
+width: 32%;
 }
 
-.Kahlo .text1{
+.Kahlo{
+top: 49%;
+left: 44%;
+}
+.Kahlo .text1 {
+margin-left: 54px;
+width: 84%;
+}
+.Kahlo .line{
+width: 98%;
+}
+.Breton{
+top: 76%;
+left: 16%;
+}
+.brenton .text1 {
+margin-left: 338px;
+width: 47%;
+}
+.Breton .line{
+width: 92%;
+}
+}
+@media only screen and (max-width:768px) {
+html{
+/* width: 1024px; */
+text-align: center;
+overflow-x:hidden;
 
 }
- }
- @media only screen and (max-width:768px) {
-   body{
-     background-color: white;
-   }
-   html{
-     width: 768px;
-   }
+.Rene{
+  top: 31%;
+      left: 0%;
+}
+.Rene h1{
+  text-align: left;
+}
+.Rene .text1{
+  width: 56%;
+  margin-left: 35%;
+}
+
+.Dali {
+  top: 43%;
+      left: 0%;
+}
+.Dali .text1 {
+  margin-left: 233px;
+      width: 55%;
+}
+.Dali .line{
+width: 100%;
+}
+.Earnst{
+  top: 54%;
+  left: 0%;
+}
+.Earnst .text1 {
+  margin-left: 278px;
+  width: 54%;
+}
+.Earnst h1{
+  text-align: left;
+  margin-right: 10px;
+}
+.Earnst .line{
+width: 98%;
+}
+.Kahlo{
+  top: 67%;
+      left: 0%;
+}
+.Kahlo .text1 {
+  margin-left: 197px;
+  width: 66%;
+}
+.Kahlo .line{
+width: 98%;
+}
+.Breton{
+  top: 81%;
+      left: 0%;
+}
+.Breton .text1 {
+  margin-left: 273px;
+      width: 52%;
+}
+.Breton .line{
+width: 100%;
+}
 .desktop{
-  display:none;
+display:none;
 }
 .mobile{
-  display:block;
+display:block;
 }
+}
+@media only screen and (max-width:328px) {
+  html{
+  /* width: 1024px; */
+  text-align: center;
+  overflow-x:hidden;
+
   }
-  @media only screen and (max-width:328px) {
-    body{
-      background-color: red;
-    }
+  h1{
+    font-size: 136%;
+    margin-bottom: -5px;
+    text-align: left;
+
+}
+
+  .Rene{
+    top: 31%;
+        left: 0%;
   }
+
+  .Rene .text1{
+    width: 56%;
+margin-left: 35%;
+font-size: 67%;
+padding: 16px 9px 40px;
+  }
+  .Rene .line{
+  width: 100%;
+  }
+  .Dali {
+    top: 45%;
+        left: 0%;
+  }
+  .Dali .text1 {
+    width: 56%;
+margin-left: 35%;
+font-size: 67%;
+padding: 16px 9px 40px;
+  }
+  .Dali .line{
+  width: 100%;
+  }
+  .Earnst{
+    top: 57%;
+  left: -20%;
+  }
+  .Earnst .text1 {
+    width: 56%;
+  margin-left: 35%;
+  font-size: 67%;
+  padding: 16px 9px 40px;
+  }
+
+  .Earnst .line{
+  width: 98%;
+  }
+  .Kahlo{
+    top: 71%;
+        left: 0%;
+  }
+  .Kahlo .text1 {
+    width: 75%;
+    margin-left: 21%;
+font-size: 67%;
+padding: 16px 9px 40px;
+  }
+  .Kahlo .line{
+  width: 98%;
+  }
+  .Breton{
+    top: 87%;
+        left: 0%;
+  }
+  .Breton .text1 {
+    width: 56%;
+margin-left: 35%;
+font-size: 67%;
+padding: 16px 9px 40px;
+  }
+  .Breton .line{
+  width: 100%;
+  }
+  .desktop{
+  display:none;
+  }
+  .mobile{
+  display:block;
+  }
+}
 /*.dropdown:hover .dropdown-content {
-  display: block;
+display: block;
 }
 */
