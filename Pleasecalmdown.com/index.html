@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Please Calm Down</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" href="https://use.typekit.net/hnb6wnq.css">
+	</head>
+	<body>
+	<div id="container">
+<div class="buttonsquare">
+		<h1><a id="song1" onclick="document.getElementById('audioID1').play().loop = true;document.getElementById('audioID2').pause();document.getElementById('audioID3').pause();"> Song 1</a></h1>
+		<audio id="audioID1" src="audio/song1.mp3" preload="auto"></audio>
+		<h2><a id="song2" onclick="document.getElementById('audioID2').play().loop = true;document.getElementById('audioID1').pause();document.getElementById('audioID3').pause();"> Song 2</a></h2>
+		<audio id="audioID2" src="audio/song2.mp3" preload="auto"></audio>
+		<h3><a id="song3" onclick="document.getElementById('audioID3').play().loop = true;document.getElementById('audioID1').pause();document.getElementById('audioID2').pause();"> Song 3</a></h3>
+		<audio id="audioID3" src="audio/song3.mp3" preload="auto"></audio>
+
+</div>
+	</div>
+	<script src="js/music.js"></script>
+</body>
+</html>
