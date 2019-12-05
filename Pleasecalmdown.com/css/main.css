@@ -1,16 +1,18 @@
+
 html {
 	margin: 0;
-	background-color: black;
-	zoom:90%;
+
+;
 	overflow-x:hidden;
 /* }
 #container{ */
-	width:1440px;
-	height: 806px;
+
+	height: 100vh;
 	background: url(../gif/gif1.gif) no-repeat top center ;
  background-size: cover;
-	background-size: 100%;
+	
 	margin:0;
+	background-color: black;
 }
 
 h1, h2, h3{
